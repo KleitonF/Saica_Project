@@ -1,0 +1,29 @@
+                               Fluxograma SAICA
+
+                                         |---->---------------->---------|
+                       |--<--chave_funcoes                               |
+                       |                                                 |
+                       V   |---->----------->------------->-----------|  |
+                       |   |                                          |  V
+             |----<----seletor_funcoes_[4,3,2,1]---<---|              V  |
+             V                                         ^              |  |
+             |                                         |              |  |
+main--<--classe_saica-----<---------------<--------funcoes---<----<---memoria
+          |  |                                         |              |  |  |
+          |  ^                                         V              |  |  |
+          |  |--<--<--seletor_funcoes_memorias--<--<---|              ^  |  |
+          |           |   |                                           |  |  |
+          |           ^   |---->-------------->------------->---------|  ^  V
+          ^           |                                                  |  |
+          |           |--<--chave_funcoes_memorias                       |  |
+          |                             |                                |  |
+          |                             |---->------------------->-------|  |
+          |-------<-----------------<---------------<----------<------------|
+
+
+Lista de funcionalidades para adicionar:
+
+-Agendar lembretes <<
+-Agendar atividades
+-Pesquisar coisas no youtube, google e outros.
+-Criar processos (atividades) secundárias.
